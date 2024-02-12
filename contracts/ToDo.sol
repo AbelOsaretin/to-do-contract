@@ -43,4 +43,13 @@ contract ToDo {
     function deleteToDo(uint256 _index) external {
         delete todos[_index];
     }
+
+    //Function to Toggle Done or Not Done
+    function markToDo(uint256 _index) external {
+        if (todos[_index].status == false) {
+            todos[_index].status = true;
+        } else {
+            todos[_index].status = false;
+        }
+    }
 }
