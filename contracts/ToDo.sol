@@ -2,8 +2,6 @@
 pragma solidity ^0.8.19;
 
 contract ToDo {
-    //TODO: Toggle status task
-
     // Creating a structured data type for my todo contrct.
     struct ToDoInfo {
         string title;
