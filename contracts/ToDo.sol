@@ -2,10 +2,6 @@
 pragma solidity ^0.8.19;
 
 contract ToDo {
-    //TODO: Create status for todo task
-    //TODO: Get all todo created
-    //TODO: Update a todo task
-    //TODO: Delete a todo task
     //TODO: Toggle status task
 
     // Creating a structured data type for my todo contrct.
