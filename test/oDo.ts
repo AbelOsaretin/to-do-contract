@@ -41,7 +41,9 @@ describe("ToDo", function () {
 
       const tx = await toDo.deleteToDo(0);
 
-      const update = 
+      const update = await toDo.seeToDo(0);
+
+      expect(update).to.equal("", "");
     });
   });
 });
