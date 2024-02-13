@@ -39,7 +39,9 @@ describe("ToDo", function () {
     it("Should Delete information", async function () {
       const { toDo } = await loadFixture(deployToDoFixture);
 
-      const tx = await toDo.deleteToDo();
+      const tx = await toDo.deleteToDo(0);
+
+      const update = 
     });
   });
 });
